@@ -2123,3 +2123,34 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+.member-img {
+  width: 100%;
+  height: 200px; /* Set a fixed height for the images */
+  overflow: hidden; /* Hide any overflow */
+}
+
+.member-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the container without distortion */
+}
+
+.member {
+  text-align: center; /* Center align the content for better aesthetics */
+  padding: 20px;
+  border: 1px solid #ddd; /* Optional: Add border to boxes */
+  border-radius: 5px; /* Optional: Add rounded corners to boxes */
+  margin-bottom: 20px; /* Add margin at the bottom of each box */
+}
+
+.member-info h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px; /* Space between heading and text */
+}
+
+.member-info p {
+  font-size: 16px;
+  color: #555; /* Adjust text color as needed */
+}
